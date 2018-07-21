@@ -1,0 +1,31 @@
+# Question : Write all git commands
+
+
+1. git config --global user.name "Your User name"
+
+2. git config --global user.email "your email"
+
+3. git init
+
+4. git add <file name>                                                                            # for adding one file
+
+5. git add .                                                                                          # for adding all files
+
+6. git status                                                                                       # for checking status
+
+7. git commit -m "Your Message"                                                       # for message 
+
+8. git remote add origin <Link>                                                          # for connecting your file to online
+
+9. git push origin master                                                                  # for pushing file on git hub
+
+
+# Updation 
+
+1. git add <file name>
+
+2. git add .
+
+3. git commit -m "your message" 
+
+4. git push origin master

@@ -1,0 +1,41 @@
+#Ques 4. What is a difference between library and API . Figure it out with examples.
+
+# Library.............
+
+
+Python library is a collection of functions and methods that allows you to perform lots of actions without writing your own code.
+
+For example, if you are working with data, numpy, scipy, pandas, etc. are the libraries you must know. They have very convenient
+data transformation functions that will save you life time to do small tricks.
+
+You might take 1 hour to finish writing a script for a certain data transformation and the script takes O(n^3) time to run. 
+Then, it is highly possible that there exists a library that contains this function and runs in O(n).
+
+Also if you are doing web development, there are libraries that will save you much much more time in your development.
+
+For a list of standard libraries: The Python Standard Library, there are a lot of new libraries coming out.
+
+If you are stuck at some point and developing a script might be time consuming, look for library functions that can do your job
+on the Internet first (stackoverflow is a good place), you would almost always be able to find one. Even you didn't, stackoverflow
+ would have lots of scripts in answers that can do similar tricks, which will save you time as well.
+ 
+ 
+ 
+# API(Application Programming Interface........)
+
+
+Application Program Interfaces, or APIs, are commonly used to retrieve data from remote websites. Sites like Reddit, Twitter, and
+Facebook all offer certain data through their APIs. To use an API, you make a request to a remote web server, and retrieve the data
+you need.
+
+ APIs are useful in the following cases:
+
+The data is changing quickly. An example of this is stock price data. It doesn't really make sense to regenerate a dataset and download
+it every minute -- this will take a lot of bandwidth, and be pretty slow.
+ 
+You want a small piece of a much larger set of data. Reddit comments are one example. What if you want to just pull your own comments on
+Reddit? It doesn't make much sense to download the entire Reddit database, then filter just your own comments.
+ 
+There is repeated computation involved. Spotify has an API that can tell you the genre of a piece of music. You could theoretically create
+your own classifier, and use it to categorize music, but you'll never have as much data as Spotify does.
+ 

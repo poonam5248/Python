@@ -1,0 +1,25 @@
+#Ques 1. What is an access token? Generate your access token for any API.(for example Twitter,Spotify etc).
+
+
+# Access Token.....
+
+The Access Token is a credential that can be used by an application to access an API.
+
+It can be any type of token (such as an opaque string or a JWT) and is meant for an API. Its purpose is to inform the API that the bearer of this token has been authorized to access the API and perform specific actions (as specified by the scope that has been granted).
+
+The Access Token should be used as a Bearer credential and transmitted in an HTTP Authorization header to the API.
+
+
+
+
+* To Generate access Token
+1. Create a twitter Account
+2. Go to apps.twitter.co
+3. Click on create new application 
+4. Fill the Form
+5. Click on create new application
+6. Note consumer_key, consumer_secret, access_token, access_token_secret
+
+
+
+Access Token of Twitter : 	1011131693586006017-5q9mQO7pg0******************** #for security purpose it is encoded
