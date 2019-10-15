@@ -6,6 +6,7 @@
 #2. Compare two sets.
 #3. Print the result of intersection of two sets.
 
+# taking input from user for first set
 print("Creation of First Set....")
 num1=int(input("Enter Ist Number: "))
 num2=int(input("Enter 2nd Number: "))
@@ -15,6 +16,8 @@ S1=set([num1,num2,num3,num4])
 print("\n")
 print("Ist set is : ",S1)
 
+
+# taking input from user for secound set
 print("\n")
 print("Creation of Second set....")
 num1=int(input("Enter Ist Number: "))
