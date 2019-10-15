@@ -1,7 +1,7 @@
 # Question : Write all git commands
 
 
-1. git config --global user.name "Your User name"
+1. git config --global user.name 'Your User name'
 
 2. git config --global user.email "your email"
 
